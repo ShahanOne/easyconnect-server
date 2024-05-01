@@ -21,4 +21,4 @@ io.on('connection', (socket) => {
     console.log('A user disconnected');
   });
 });
-console.log('hell');
+console.log('hello');
