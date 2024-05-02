@@ -4,7 +4,7 @@ const io = require('socket.io')(process.env.PORT || 3001, {
     methods: ['GET', 'POST'],
   },
 });
-
+// 'http://localhost:3000' ||
 io.on('connection', (socket) => {
   console.log('A chump connected!');
 
